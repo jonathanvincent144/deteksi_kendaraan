@@ -1,0 +1,7 @@
+Letakkan bobot hasil training di folder ini:
+
+  yolo_best.pt      <- dari  hasil/yolo/yolov8_run/weights/best.pt
+  frcnn_best.pth    <- dari  hasil/frcnn/best.pth
+
+Opsional: classes.txt (satu nama kelas per baris, urutan sama dengan data.yaml).
+Jika tidak ada, nama kelas dibaca otomatis dari yolo_best.pt.
